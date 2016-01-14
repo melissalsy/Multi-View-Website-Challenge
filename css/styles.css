@@ -1,11 +1,11 @@
-header{
+#mainheader{
 	background-image: url("../img/bike6.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
     text-align:center;
     padding:10px;
-    font: 20px Canter light;
+    font: 20px Georgia;
     color: white;
     text-decoration: none;
 }
@@ -22,15 +22,17 @@ ul li {
 li a {
 	text-decoration: none;
 	text-transform: uppercase;
-	font: normal bold 18pt Georgia;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	color: DarkGray;
 	display: inline;
 	padding: 8px;
 }
 article{
-	font: normal bold 14pt Arial;
+	font: normal bold 14pt 'Open Sans';
+	font-color: lightgray;
 	padding: 30px;
-	text-align: center
+	text-align: left;
 }
 footer, footer a, footer a:visited{
    left:0px;
@@ -57,8 +59,4 @@ a:visited:hover{
 }
 a:active{
 	color: yellow;
-}
-
-.Logo {
-	width: 300px;
 }
