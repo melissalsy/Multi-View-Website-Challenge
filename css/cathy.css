@@ -35,6 +35,10 @@ nav {
 
 }
 
+nav a {
+	color: black;
+}
+
 .footer{
 	width: auto;
 	height: 50px;
