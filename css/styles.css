@@ -1,0 +1,65 @@
+header{
+	background-color:LightGray;
+    text-align:center;
+    padding:10px;
+    font: normal 30pt Arial;
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+	display:block;
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+ul li {
+	float: left;
+}
+li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font: normal bold 18pt Arial;
+	color: navy;
+	display: inline;
+	padding: 8px;
+}
+article{
+	font: normal bold 14pt Arial;
+	padding: 30px;
+	text-align: center;
+}
+footer, footer a, footer a:visited{
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background: navy;
+   font: normal bold 18pt arial;
+   color: white;
+   padding: 10px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: pink;
+}
+a:visited{
+	color:navy;
+}
+a:visited:hover{
+	color:green;
+}
+a:active{
+	color: yellow;
+}
+
+.Logo {
+	width: 300px;
+}
