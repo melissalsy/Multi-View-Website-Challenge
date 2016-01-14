@@ -26,6 +26,7 @@ h2{
 
 .dropdown:hover .dropdown-content {
     display: block;
+    margin-left:60px;
 }
 
 nav {
